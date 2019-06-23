@@ -20,20 +20,20 @@
   </header>
 
   <section class="gutter-1-2">
-    <form class="push-0" method="POST" action="https://formspree.io/lepi0068@algonquinlive.com">
-      <fieldset>
+    <form class="push-0 pad-t-1-8" method="POST" action="https://formspree.io/lepi0068@algonquinlive.com">
+      <fieldset class="personaldetails">
         <legend class="giga bold push pad-t-2 pad-b-1-8">Personal details</legend>
         <div class="push-1-2 grid">
-          <div class="left-box unit xs-1 s-1 m-1-2 l-1-2 pad-t-1-8">
+          <div class="top-box left-box unit xs-1 s-1 m-1-2 l-1-2 pad-t-1-8">
             <label class="kilo pad-b-1-8" for="name">Full name</label>
             <input id="name" name="name" required>
-            <p class="italic micro pad-t-1-8">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+            <p class="italic micro">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
           </div>
 
           <div class="right-box unit xs-1 s-1 m-1-2 l-1-2">
-            <label class="kilo pad-t-1-8 pad-b-1-8" for="nickname">What should we call you?</label>
+            <label class="kilo pad-b-1-8" for="nickname">What should we call you?</label>
             <input class="pad-l" id="nickname" name="nickname" required>
-            <p class="italic micro pad-t-1-8">What all your friends call you, e.g. “Liz”.</p>
+            <p class="italic micro">What all your friends call you, e.g. “Liz”.</p>
           </div>
 
           <div class="push left-box unit xs-1 s-1 m-1-2 l-1-2">
@@ -166,7 +166,7 @@
       </fieldset>
 
       <fieldset class="grid push-2">
-        <legend class="unit xs-1 s-1unit-m-1 l-1 giga bold push-half pad-t">Do you have any experience with the following?</legend>
+        <legend class="unit xs-1 s-1 m-1 l-1 giga bold push">Do you have any experience with the following?</legend>
         <div class="unit">
           <div class="grid">
             <div class="unit xs-1 s-1 m-1-2 l-1-2">
@@ -228,8 +228,8 @@
 
       <hr class="pad-t pad-b push-0">
 
-      <fieldset>
-        <legend class="giga bold">Do you have a valid driver's license?</legend>
+      <fieldset class="yesno">
+        <legend class="giga bold check">Do you have a valid driver's license?</legend>
         <input id="license-yes" type="radio" name="license-yes">
         <label class="push-r" for="license-yes">Yes</label>
 
@@ -237,8 +237,8 @@
         <label for="license-no">No</label>
       </fieldset>
 
-      <fieldset>
-        <legend class="giga bold">Do you have a pick-up truck you'd be willing to use?</legend>
+      <fieldset class="yesno">
+        <legend class="giga bold check">Do you have a pick-up truck you'd be willing to use?</legend>
         <input id="truck-yes" type="radio" name="truck-yes">
         <label class="push-r" for="truck-yes">Yes</label>
 
@@ -246,8 +246,8 @@
         <label for="truck-no">No</label>
       </fieldset>
 
-      <fieldset class="push">
-        <legend class="giga bold psu">Do you have up-to-date first-aid certification?</legend>
+      <fieldset class="push yesno">
+        <legend class="giga bold check">Do you have up-to-date first-aid certification?</legend>
         <input id="first-aid-yes" type="radio" name="first-aid-yes">
         <label class="push-r" for="first-aid-yes">Yes</label>
 
@@ -258,8 +258,8 @@
       <hr>
 
       <fieldset>
-        <legend class="giga bold pad-t" id="comments">Please let us know any comments or questions you may have. <span class="italic green">(optional)</span></legend>
-        <textarea class="textbox push-2" aria-labelledby="comments" id="message" name="message"></textarea>
+        <legend class="giga bold pad-t pad-b-1-8" id="comments">Please let us know any comments or questions you may have. <span class="italic green">(optional)</span></legend>
+        <textarea class="textbox" aria-labelledby="comments" id="message" name="message"></textarea>
       </fieldset>
 
       <hr>

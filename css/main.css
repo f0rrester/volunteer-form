@@ -37,3 +37,31 @@ fieldset {
 hr {
   border-color: rgba(112, 173, 85, .3);
 }
+
+.yesno {
+  margin-bottom: 2.8rem;
+}
+
+.check {
+  padding-bottom: .5rem;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .personaldetails {
+    margin-bottom: 0;
+  }
+
+  .left-box {
+    padding-right: .75em;
+  }
+
+  .right-box {
+    padding-left: .75em;
+  }
+
+  .top-box {
+    padding-top: 0;
+  }
+
+}
